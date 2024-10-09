@@ -3,49 +3,78 @@
 }
 
 
-
-.background {
-    background-color: #2F303A;
-    color: white;
-   }
-   .my-button{
-       background-color: #2196F3;
-       color: white;
-   }
-   .team{
-       background-color: #F5F4FA;
-   }
-   .information{
-       background-color: #2F303A;
-   }
-   li{
-    list-style-type: none;
-    text-decoration: none;/*тут теж не хоче*/
-   }
-
 /*-----header-----*/
+a{
+    text-decoration: none;
+    color: black;
+}
 .main-logo {
     font-family:"Raleway",sans-serif;
     letter-spacing: 3%;
     font-size: 26px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 1.17;
-    text-decoration: none;
 }
 .nav-item{
     font-family:"Roboto", sans-serif;
-    font-weight: 500px;
+    font-weight: 500;
     letter-spacing: 2%;
     font-size: 14px;
     line-height: 1.17;
-    text-decoration: none;/*  не працює чомусь :(  */
 }
-.nav-item-inf:hover{
-    text-decoration: none;
-    color: var(--axent-color);
+a:hover{
     background-color: #f1f4f6;
-    
+    color: blue;
 }
+.first-section{
+    background-color: #2F303A;
+    color: white;
+   }
+.team{
+       background-color: #F5F4FA;
+   }
+ .information{
+       background-color: #2F303A;
+   }
+li{
+    list-style-type: none;
+    text-decoration: none;
+   }
+.first-section{
+    text-align: center;
+   }
+.first-sc-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 6%;
+}
+/*-------main-------*/
+.my-button{
+    background-color: #2196F3;
+    color: white;
+}
+.my-button:hover{
+    color: #101011;
+    background-color: #f1f4f6;
+}
+.my-button:focus{
+     outline: none;
+     box-shadow: 0 0 5px rgba(0, 128, 255, 0.5);
+}
+.section-title {
+    text-transform: capitalize;
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 3%;
 
-
-   
+}
+.section-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 3%;
+  color:#757575;
+}
