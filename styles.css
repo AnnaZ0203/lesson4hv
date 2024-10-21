@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 .container{
     width: 1200px;
     padding: 0 15px;
@@ -45,8 +47,10 @@ a:hover{
     color: blue;
 }
 .first-section{
+    display: block;
     background-color: #2F303A;
     color: white;
+
    }
 .team{
        background-color: #F5F4FA;
@@ -66,12 +70,19 @@ li{
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 6%;
+    
 }
+   
+
 /*-------main-------*/
 /*first section*/
 .my-button{
     background-color: #2196F3;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .my-button:hover{
     color: #101011;
@@ -88,6 +99,7 @@ li{
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 3%;
+    padding-bottom: 10px;
 
 }
 .section-text {
@@ -96,6 +108,7 @@ li{
   line-height: 1.71;
   letter-spacing: 3%;
   color:#757575;
+  padding-bottom: 118px;
 }
 
 
@@ -107,14 +120,26 @@ li{
     line-height: 1.17;
     letter-spacing: 3%;
     text-align: center;
+    padding-bottom: 50px;
+}
+.scnd-sec-item{
+    padding-bottom: 94px;
 }
 /*section3*/
+.team{
+    background-color: #F5F4FA;
+    padding-bottom: 94px;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 3%;
     text-align: center;
+    padding-top: 94px;
+}
+.team-image{
+    padding-bottom: 30px;
 }
 .team-name {
     font-weight: 500;
@@ -122,6 +147,7 @@ li{
     line-height: 1.17;
     letter-spacing: 3%;
     text-align: center;
+    padding-bottom: 10px;
 }
 .team-job {
     color: #757575;
@@ -130,6 +156,8 @@ li{
     line-height: 1.17;
     letter-spacing: 3%;
     text-align: center;
+    padding-bottom: 125px;
+    
 
 }
 /*footer*/
@@ -146,6 +174,9 @@ span{
     line-height: 1.17;
     letter-spacing: 3%;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
 }
 .footer-item-adrs{
 font-weight: 400;
@@ -153,6 +184,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 3%;
 color: white;
+padding-bottom: 10px;
 }
 
 .footer-item #cls{
@@ -161,4 +193,5 @@ color: white;
     line-height: 1.71;
     letter-spacing: 3%;
     color: #FFFFFF99;
+    padding-bottom: 10px;
 }/*не знаю як правильно ,семантично написати щоб цей текст став сірим ;(*/
