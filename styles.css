@@ -34,10 +34,12 @@ body{
 }
 
 /*-----header-----*/
-.header-nav{
+.header-wrap{
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     flex-direction: row;
+    align-items: row;
 }
 
 .main-logo {
