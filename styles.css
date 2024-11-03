@@ -34,38 +34,40 @@ body{
 }
 
 /*-----header-----*/
-.header-wrap{
+.header{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navigation{
     display: flex;
     justify-content: space-between;
-    justify-content: center;
-    flex-direction: row;
-    align-items: row;
-}
+    align-items: center;
+  }
 
-.main-logo {
+.logo{
+    display: flex;
     font-family:"Raleway",sans-serif;
     letter-spacing: 3%;
     font-size: 26px;
     font-weight: 700;
     line-height: 1.17;
 }
-.main-logo:hover,
-.main-logo:focus{
+.logo:hover,
+.logo:focus{
  background-color: rgb(201, 198, 198) ;
 }
-
 span{
-    color: #2196F3;
+    color: var(--axent);
 }
-.navigation{
-  display: flex;
-  justify-content: space-between;
 
-}
+
+
 .nav-list{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+   display: flex;
+   align-items: center;
+}
+.nav-item{
+    margin-right: 50px;
 }
 
 .nav-item{
@@ -76,7 +78,7 @@ span{
     line-height: 1.17;
     color: #000000; 
 }
-.nav-item-inf a {
+.nav-adress {
         text-decoration: none;
         color: #333;
         font-size: 14px;
@@ -85,8 +87,8 @@ span{
         line-height: 1.17;
 
 }
-.nav-item-inf a:hover,
-.nav-item-inf a:focus {
+.nav-adress:hover,
+.nav-adress:focus {
     color: #2196F3;
 }
 
