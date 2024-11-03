@@ -36,6 +36,8 @@ body{
 /*-----header-----*/
 .header-nav{
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .main-logo {
@@ -54,7 +56,8 @@ span{
     color: #2196F3;
 }
 .navigation{
-  
+  display: flex;
+  justify-content: space-between;
 
 }
 .nav-list{
@@ -64,14 +67,12 @@ span{
 }
 
 .nav-item{
-    
     font-family:"Roboto", sans-serif;
     font-weight: 500;
     letter-spacing: 2%;
     font-size: 14px;
     line-height: 1.17;
     color: #000000; 
-    margin: 50px;
 }
 .nav-item-inf a {
         text-decoration: none;
@@ -80,8 +81,7 @@ span{
         font-family: "Roboto", sans-serif;
         font-weight: 500;
         line-height: 1.17;
-        margin: 50px;
-        margin-right: auto;
+
 }
 .nav-item-inf a:hover,
 .nav-item-inf a:focus {
