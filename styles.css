@@ -28,7 +28,7 @@ body{
 .container{
     width: 1200px;
     padding: 0 15px;
-    outline: 1px solid orangered;
+    outline: 1px solid black;
     margin-left: auto;
     margin-right: auto;
 }
@@ -41,11 +41,13 @@ body{
 .header-wrap{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .navigation{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
   }
 
 .logo{
@@ -81,31 +83,52 @@ span{
     line-height: 1.17;
     color: #000000; 
 }
+.nav-item:last-child{
+    margin-right: 344px;
+}
 .address{
     display: flex;
     justify-content: space-between;
 }
-.nav-adress {
+.nav-adress{
+        margin-right: 50px;
         text-decoration: none;
         color: #333;
         font-size: 14px;
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto", "serif";
         font-weight: 500;
         line-height: 1.17;
-
+}
+.nav-adress:last-child{
+    margin-right: auto;
 }
 .nav-adress:hover,
 .nav-adress:focus {
     color: #2196F3;
 }
 
+/*-------main-------*/
+/*first section*/
 
 .first-section{
-    display: block;
     background-color: #2F303A;
     color: white;
 
    }
+   .section-wrap{
+    display: flex;
+   }
+
+   .first-sc-title{
+ 
+    padding-bottom: 200px;
+    padding-right: 450px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06%;
+    
+}
 .team{
        background-color: #F5F4FA;
    }
@@ -119,17 +142,8 @@ li{
 .first-section{
     text-align: center;
    }
-.first-sc-title{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06%;
-    
-}
-   
 
-/*-------main-------*/
-/*first section*/
+   
 .my-button{
     background-color: #2196F3;
     color: white;
@@ -137,6 +151,7 @@ li{
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+
 }
 .my-button:hover{
     color: #101011;
