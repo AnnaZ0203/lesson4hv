@@ -38,6 +38,10 @@ body{
     margin-top: auto;
     margin-bottom: auto;
 }
+.header-wrap{
+    display: flex;
+    align-items: center;
+}
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -45,7 +49,6 @@ body{
   }
 
 .logo{
-    display: flex;
     font-family:"Raleway",sans-serif;
     letter-spacing: 3%;
     font-size: 26px;
@@ -77,6 +80,10 @@ span{
     font-size: 14px;
     line-height: 1.17;
     color: #000000; 
+}
+.address{
+    display: flex;
+    justify-content: space-between;
 }
 .nav-adress {
         text-decoration: none;
