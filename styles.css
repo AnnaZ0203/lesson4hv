@@ -113,21 +113,21 @@ span{
 .first-section{
     background-color: #2F303A;
     color: white;
+    padding: 200px 0px;
 
-   }
-   .section-wrap{
-    display: flex;
    }
 
    .first-sc-title{
- 
-    padding-bottom: 200px;
-    padding-right: 450px;
+    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06%;
     
+}
+.seciton-list{
+    display: flex;
+    gap: 30px;
 }
 .team{
        background-color: #F5F4FA;
@@ -145,6 +145,7 @@ li{
 
    
 .my-button{
+    margin: 0 auto;
     background-color: #2196F3;
     color: white;
     padding-top: 10px;
@@ -177,7 +178,6 @@ li{
   line-height: 1.71;
   letter-spacing: 3%;
   color:#757575;
-  padding-bottom: 118px;
 }
 
 
