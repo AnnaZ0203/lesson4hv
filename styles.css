@@ -225,6 +225,10 @@ li{
     text-align: center;
     padding-bottom: 50px;
 }
+.team-list{
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    
+}
 .team-image{
     padding-bottom: 30px;
 }
