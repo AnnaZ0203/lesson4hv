@@ -114,8 +114,9 @@ span{
     background-color: #2F303A;
     color: white;
     padding: 200px 0px;
-
+    background-image: url(./img/Img.png);
    }
+   
 
    .first-sc-title{
     text-align: center;
@@ -129,10 +130,28 @@ span{
 
     
 }
+.section-item{
+
+}
+
 .seciton-list{
     display: flex;
     gap: 30px;
 }
+.section-list::before{
+   content: "";
+   height: 50px;
+   width: 90px;
+   background-image: url(./img/Group.jpg);
+   background-size: 30px;
+   position: absolute;
+   top: 0;
+   left: 50%;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
 .team{
        background-color: #F5F4FA;
    }
