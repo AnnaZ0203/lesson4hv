@@ -110,6 +110,63 @@ span{
 /*-------main-------*/
 /*first section*/
 
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+
+.seciton-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.section-item {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  width: 23%; 
+}
+
+.icon { 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-cignalde{
+  background-image: url(./img/Group.jpg); 
+}
+
+.icon-clock{
+  background-image: url(./img/clock\ 1.jpg);
+}
+
+.icon-planning {
+  background-image: url(./img/Vector.jpg);
+}
+
+.icon-technology {
+  background-image: url(./img/Group\ \(1\).jpg);
+}
+
+
+.section-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
 .first-section{
     background-color: #2F303A;
     color: white;
@@ -129,9 +186,6 @@ span{
 
 
     
-}
-.section-item{
-
 }
 
 .seciton-list{
