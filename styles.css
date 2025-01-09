@@ -124,16 +124,19 @@ span{
   gap: 20px;
   padding: 0;
   list-style: none;
+  background-color: white;
 }
 
 .section-item {
   text-align: center;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: white;
   border-radius: 10px;
   width: 23%; 
 }
-
+.section-text{
+    background-color: rgba(242, 229, 229, 0.267);
+}
 .icon { 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 60px;
@@ -142,6 +145,7 @@ span{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: white;
 }
 
 .icon-cignalde{
