@@ -328,6 +328,80 @@ li{
     
 
 }
+.clients-title{
+text-align: center;
+font-family: "Roboto",serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+}
+.clients-wrap{
+   
+}
+.clients-list{
+    display: flex;
+    justify-content: center;
+}
+.clients-item{
+    
+}
+.clients-item{
+width: 170px;
+height: 92px;
+margin-right: 30px;
+margin-bottom: 23px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+
+}
+.clients-svgone{
+width: 41px;
+height: 46.7px;
+position: relative;
+left: 58px;
+top: 25px;
+
+}
+.clients-svgtwo{
+    width: 40px;
+height: 52px;
+position: relative;
+left: 58px;
+top: 25px;
+}
+.clients-svgthree{
+    width: 43.46px;
+height: 41.18px;
+position: relative;
+left: 58px;
+top: 25px;
+}
+.clients-svgfour{
+width: 84.44px;
+height: 40.62px;
+position: relative;
+left: 48px;
+top: 25px;
+
+}
+.clients-svgsix{
+width: 93.79px;
+height: 43.93px;
+position: relative;
+left: 30px;
+top: 25px;
+
+}
+.clients-svgfive{
+    width: 93.79px;
+height: 43.93px;
+position: relative;
+left: 30px;
+top: 25px;
+
+}
 /*footer*/
 .footer{
     background-color: #2F303A;
