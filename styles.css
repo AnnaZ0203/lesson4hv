@@ -65,8 +65,22 @@ span{
     color: var(--axent);
 }
 
+.header-letter{
+    width: 16px;
+height: 12px;
+position: relative;
+top: 2px;
+right: 4px;
 
+}
+.header-phone{
+    width: 10px;
+height: 16px;
+position: relative;
+top: 4px;
+right: 5px;
 
+}
 .nav-list{
    display: flex;
    align-items: center;
@@ -95,10 +109,11 @@ span{
         text-decoration: none;
         color: #333;
         font-size: 14px;
-        font-family: "Roboto", sans-serif;
+        font-family: "Roboto", serif;
         font-weight: 500;
         line-height: 1.17;
 }
+
 .nav-adress:last-child{
     margin-right: auto;
 }
@@ -425,6 +440,7 @@ span{
 .footer-wrap{
     margin-right: auto;
     margin-left: auto;
+    margin-top: 20px;
 }
 .footer-logo{
     font-family: "Raleway",sans-serif;
@@ -457,4 +473,23 @@ padding-bottom: 10px;
     letter-spacing: 3%;
     color: #FFFFFF99;
     padding-bottom: 10px;
+}
+.footer-s-title{
+    font-family: "Roboto",sans-serif;
+color:#FFFFFF;
+margin-bottom: 20px;
+
+}
+
+.footer-svg{
+width: 44px;
+height: 44px;
+margin-right: 12px;
+}
+
+
+.svg-wrap{
+    position: relative;
+    left: 300px;
+    top: -137px;
 }
