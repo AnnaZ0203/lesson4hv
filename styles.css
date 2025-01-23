@@ -279,6 +279,25 @@ li{
 
   /*second section */
 
+.second-text{
+
+font-family: "Roboto", serif;
+font-size: 13.5px;
+font-weight: 700;
+line-height: 16.41px;
+letter-spacing: 3%;
+text-align: center;
+color: var(--maintext);
+border: solid 1px #2F303ACC;
+padding-top: 27px;
+padding-right: 107px;
+padding-left: 107px;
+padding-bottom: 27px;
+background-color:#2F303ACC;
+position: relative;
+top: -90px;
+}
+
 .scnd-sec-title {
     font-weight: 700;
     font-size: 36px;
