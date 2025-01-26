@@ -139,32 +139,43 @@ right: 5px;
   gap: 20px;
   padding: 0;
   list-style: none;
-  background-color: white;
+
 }
 
 .section-item {
   text-align: center;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  width: 23%; 
 }
 .section-text{
-    background-color: rgba(242, 229, 229, 0.267);
 }
 .icon { 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   width: 60px;
   height: 60px;
   margin: 0 auto 15px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: white;
+
+}
+.wrp{
+    border: 1px solid white;
+    width: 260px;
+height: 120px;
+border-radius: 4px 0px 0px 0px;
+padding-bottom: 25px;
+padding-top: 25px;
+padding-left: 80px;
+padding-right: 80px;
+background-color: #F5F4FA;
+;
+
+
 }
 
+.section-img{
+    width: 70px;
+height: 70px;
 
-
+}
 
 .section-title {
   font-size: 18px;
