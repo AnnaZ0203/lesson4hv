@@ -362,6 +362,7 @@ top: -90px;
 .teamsvg-wrap{
 display: flex;
 }
+
 .team-svg{
     width: 20px;
 height: 20px;
@@ -370,6 +371,13 @@ position: relative;
 right: -50px;
 margin-bottom: 30px;
 
+}
+{
+    border: 1px solid #2196F3;
+    border-radius: 360px;
+    width: 44px;
+height: 44px; 
+background-color: #2196F3;
 }
 
 .clients-title{
