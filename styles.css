@@ -406,6 +406,12 @@ border: 1px solid #AFB1B8;
 border-radius: 4px;
 
 }
+.clients-svgone:hover{
+}
+.clients-svgtwo{
+background-image: url(./img/lastsection.svg#icon-second);
+background-size: cover;
+}
 .clients-svgone{
 width: 41px;
 height: 46.7px;
@@ -434,9 +440,8 @@ height: 40.62px;
 position: relative;
 left: 48px;
 top: 25px;
-
-
 }
+
 .clients-svgsix{
 width: 93.79px;
 height: 43.93px;
