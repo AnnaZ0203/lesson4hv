@@ -360,7 +360,11 @@ top: -90px;
     padding-bottom: 10px;
 }
 .teamsvg-wrap{
-display: flex;
+    display: flex;
+}
+.svghover:hover{
+    background-color:#2196F3;
+
 }
 
 .team-svg{
@@ -372,13 +376,7 @@ right: -50px;
 margin-bottom: 30px;
 
 }
-{
-    border: 1px solid #2196F3;
-    border-radius: 360px;
-    width: 44px;
-height: 44px; 
-background-color: #2196F3;
-}
+
 
 .clients-title{
 text-align: center;
@@ -436,6 +434,7 @@ height: 40.62px;
 position: relative;
 left: 48px;
 top: 25px;
+
 
 }
 .clients-svgsix{
