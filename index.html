@@ -33,7 +33,22 @@
         <section class="first-section">
             <div class="container">
             <h1 class="first-sc-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="my-button" type="button">замовити послугу</button></div>
+            <button class="my-button" type="button" data-modal-open>замовити послугу</button></div>
+<div class="backdrop is-hidden" data-modal>
+    <div class="model">
+<button class="btn-close" data-modal-close>xx</button>
+<form action="">
+    <input type="text" placeholder="your name" required />
+    <input type="password" minlength="4" placeholder="your password">
+    <input type="number" min="18" max="40" placeholder="your age"
+    disabled
+    class="input">
+    <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+    <input type="checkbox" class="checkbox">
+    <button type="submit">send form</button>
+</form>
+    </div>
+</div>
         </section>
 
         <section class="section container">
