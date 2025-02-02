@@ -10,6 +10,7 @@
 a {
   text-decoration: none;
   color: var(--firstlogo);
+  font-style: normal;
 }
 a:hover {
   color: var(--axent);
@@ -17,9 +18,19 @@ a:hover {
 ul {
   list-style: none;
 }
-h1,h2,h3,h4,h5,ul,li,form,input,button,p{
-margin: 0;
-padding:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+form,
+input,
+button,
+p {
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -35,9 +46,17 @@ body {
 }
 
 /*-----header-----*/
+.svgheader{
+  fill:#757575;
+  
+}
+.svgheader:hover{
+  fill: #2196f3;
+}
 .header {
-  margin-top: auto;
-  margin-bottom: auto;
+ 
+  margin-bottom: 32px;
+  margin-top: 32px;
 }
 .header-wrap {
   display: flex;
@@ -77,7 +96,7 @@ span {
   width: 10px;
   height: 16px;
   position: relative;
-  top: 4px;
+  top: 3px;
   right: 5px;
 }
 .nav-list {
@@ -187,6 +206,7 @@ span {
   padding-left: 80px;
   padding-right: 80px;
   background-color: #f5f4fa;
+  margin-bottom: 20px;
 }
 
 .section-img {
@@ -375,16 +395,14 @@ li {
   margin-top: 16px;
 }
 
-
 .team-svg {
   width: 20px;
   height: 20px;
- fill: #757575;
-
+  fill: #757575;
 }
-.svghover:hover .team-svg{
-    fill: #2196f3;
-    display: block;
+.svghover:hover .team-svg {
+  fill: #2196f3;
+  display: block;
 }
 .clients-title {
   text-align: center;
@@ -402,7 +420,6 @@ li {
   justify-content: center;
 }
 
-
 .clients-item {
   width: 170px;
   height: 92px;
@@ -411,57 +428,52 @@ li {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.clients-item :hover{
+.clients-item :hover {
   fill: #2196f3;
 }
 
 .clients-svgone {
- 
   width: 130px;
   height: 100px;
   position: relative;
   left: 20px;
-    fill:  #AFB1B8;
-
-
+  fill: #afb1b8;
 }
 .clients-svgtwo {
   width: 130px;
   height: 100px;
   position: relative;
   left: 20px;
-    fill:  #AFB1B8;
-
+  fill: #afb1b8;
 }
 .clients-svgthree {
   width: 130px;
   height: 100px;
   position: relative;
   left: 20px;
-    fill:  #AFB1B8;
+  fill: #afb1b8;
 }
 .clients-svgfour {
   width: 130px;
   height: 100px;
   position: relative;
   left: 20px;
-    fill:  #AFB1B8;
+  fill: #afb1b8;
 }
 
 .clients-svgsix {
-   width: 130px;
+  width: 130px;
   height: 100px;
   position: relative;
   left: 20px;
-    fill:  #AFB1B8;
+  fill: #afb1b8;
 }
 .clients-svgfive {
-   width: 130px;
+  width: 130px;
   height: 100px;
   position: relative;
   left: 20px;
-  fill:  #AFB1B8;
-
+  fill: #afb1b8;
 }
 /*footer*/
 .footer {
