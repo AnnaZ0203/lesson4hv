@@ -299,7 +299,7 @@ li {
   padding-bottom: 27px;
   background-color: #2f303acc;
   position: relative;
-  top: -90px;
+  top: -76px;
 }
 
 .scnd-sec-title {
@@ -374,9 +374,7 @@ li {
   margin-bottom: 30px;
   margin-top: 16px;
 }
-.svghover:hover {
-  background-color: #2196f3;
-}
+
 
 .team-svg {
   width: 20px;
@@ -386,6 +384,7 @@ li {
 }
 .svghover:hover .team-svg{
     fill: #2196f3;
+    display: block;
 }
 .clients-title {
   text-align: center;
@@ -402,8 +401,8 @@ li {
   display: flex;
   justify-content: center;
 }
-.clients-item {
-}
+
+
 .clients-item {
   width: 170px;
   height: 92px;
@@ -412,54 +411,57 @@ li {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.clients-svgone:hover {
+.clients-item :hover{
+  fill: #2196f3;
 }
-.clients-svgtwo {
-  background-image: url(./img/lastsection.svg#icon-second);
-  background-size: cover;
-}
+
 .clients-svgone {
-  width: 41px;
-  height: 46.7px;
+ 
+  width: 130px;
+  height: 100px;
   position: relative;
-  left: 58px;
-  top: 25px;
+  left: 20px;
+    fill:  #AFB1B8;
+
+
 }
 .clients-svgtwo {
-  width: 40px;
-  height: 52px;
+  width: 130px;
+  height: 100px;
   position: relative;
-  left: 58px;
-  top: 25px;
+  left: 20px;
+    fill:  #AFB1B8;
+
 }
 .clients-svgthree {
-  width: 43.46px;
-  height: 41.18px;
+  width: 130px;
+  height: 100px;
   position: relative;
-  left: 58px;
-  top: 25px;
+  left: 20px;
+    fill:  #AFB1B8;
 }
 .clients-svgfour {
-  width: 84.44px;
-  height: 40.62px;
+  width: 130px;
+  height: 100px;
   position: relative;
-  left: 48px;
-  top: 25px;
+  left: 20px;
+    fill:  #AFB1B8;
 }
 
 .clients-svgsix {
-  width: 93.79px;
-  height: 43.93px;
+   width: 130px;
+  height: 100px;
   position: relative;
-  left: 30px;
-  top: 25px;
+  left: 20px;
+    fill:  #AFB1B8;
 }
 .clients-svgfive {
-  width: 93.79px;
-  height: 43.93px;
+   width: 130px;
+  height: 100px;
   position: relative;
-  left: 30px;
-  top: 25px;
+  left: 20px;
+  fill:  #AFB1B8;
+
 }
 /*footer*/
 .footer {
