@@ -55,25 +55,30 @@
         </div>
         <div class="backdrop is-hidden" data-modal>
           <div class="model">
-            <button class="btn-close" data-modal-close>xx</button>
+            <h2 class="modelhtwo">Залиште свої дані, ми вам передзвонимо</h2>
+            <button class="btn-close" data-modal-close>x</button>
             <form action="">
-              <input type="text" placeholder="your name" required />
+              <h2 class="nametitle">Ім'я</h2>
+              <input class="inputname" type="text" placeholder="" required />
+              <svg class="modal-person"><use href="./img/symbol-defs.svg#icon-person-modal"></use></svg>
+              <h2 class="inputnubmer">Телефон</h2>
+                  <input
+                  class="namenumber"
+                type="tel"
+                placeholder=""
+           /><svg class="modal-phone"><use href="./img/symbol-defs.svg#icon-phone-modal"></use></svg>
+              <h2 class="inputemail">Пошта</h2>
               <input
-                type="password"
-                minlength="4"
-                placeholder="your password"
-              />
-              <input
-                type="number"
-                min="18"
-                max="40"
-                placeholder="your age"
-                disabled
-                class="input"
-              />
-              <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+              class="nameemail"
+                type="email"
+                placeholder=""
+              /><svg class="modal-envelope"><use href="./img/symbol-defs.svg#icon-email-modal"></use></svg>
+        <h2 class="nametextarea">Коментар</h2>
+             <textarea  class="inputtextarea" name="Введіть текст" id="" placeholder="Введіть текст"></textarea>
+
               <input type="checkbox" class="checkbox" />
-              <button type="submit">send form</button>
+              <h2 class="inputagreement">Погоджуюся з розсилкою та приймаю <span>Умови договору</span></h2>
+              <button class="submit-btn"type="submit">Відправити</button>
             </form>
           </div>
         </div>
