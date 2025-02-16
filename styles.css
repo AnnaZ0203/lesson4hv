@@ -459,9 +459,9 @@ li {
   padding-left: 30px;
   padding-right: 30px;
   transition-property: color;
+  border-radius: 5px;
 }
 .my-button:hover {
-  color: #101011;
   background-color: #f1f4f6;
   color: #2196F3;
 transition-duration: 250ms;
@@ -470,7 +470,7 @@ transition-duration: 250ms;
 }
 .my-button:focus {
   outline: none;
-  box-shadow: 0 0 5px rgba(0, 128, 255, 0.5);
+
 }
 .section-title {
   text-transform: capitalize;
