@@ -581,11 +581,14 @@ border: 1px solid transparent;
 border-radius: 360px;
 display: block;
 background-color: var(--axent);
-
+transition-duration: 250ms;
+transition-delay: 1ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)f;
 }
 .svghover{
   width: 40px;
   height: 40px;
+  transition: background-color;
 }
 .team {
   background-color: #f5f4fa;
@@ -836,10 +839,13 @@ transition-property: fill;
   border-radius: 360px;
   display: inline-block;
   background-color: #FFFFFF1A;
-;
+  transition-property: background-color;
 }
 .vgh-footer-hover:hover{
 background-color: #2196f3;
+transition-duration: 250ms;
+transition-delay: 2ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
