@@ -538,14 +538,14 @@ transition-duration: 250ms;
 /*second section */
 
 .second-text {
-  font-family: "Roboto", serif;
-  font-size: 13.5px;
+  font-family: "Roboto",sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 16.41px;
-  letter-spacing: 3%;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   text-align: center;
   color: var(--maintext);
-  border: solid 1px #2f303acc;
   padding-top: 27px;
   padding-right: 107px;
   padding-left: 107px;
