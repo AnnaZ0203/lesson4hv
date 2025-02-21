@@ -648,6 +648,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)f;
 .team-svg {
   width: 20px;
   height: 20px;
+  fill: var(--text);
 transition-property:fill;
 }
 .team-svg:hover {
