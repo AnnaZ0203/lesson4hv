@@ -1,15 +1,16 @@
 .svghover:hover {
-  border: 1px solid transparent;
+    padding: 12px;
+    border-radius: 50%;
+ border-color: transparent;
   border-radius: 360px;
-  display: block;
+  display: inline-block;
   background-color: var(--axent);
   transition-duration: 250ms;
   transition-delay: 1ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) f;
 }
 .svghover {
-  width: 40px;
-  height: 40px;
+  
   transition: background-color;
 }
 .team {
