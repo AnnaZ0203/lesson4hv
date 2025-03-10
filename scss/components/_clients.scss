@@ -1,0 +1,74 @@
+.clients-title {
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+  margin-bottom: 23px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-property: fill;
+}
+.clients-item :hover {
+  fill: #2196f3;
+  transition-duration: 250ms;
+  transition-delay: 2ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-svgone {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+.clients-svgtwo {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+.clients-svgthree {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+.clients-svgfour {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+
+.clients-svgsix {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+.clients-svgfive {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}

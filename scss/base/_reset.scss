@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+  color: var(--firstlogo);
+  font-style: normal;
+}
+a:hover {
+  color: var(--axent);
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+form,
+input,
+button,
+p {
+  margin: 0;
+  padding: 0;
+}
