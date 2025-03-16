@@ -1,16 +1,12 @@
 @charset "UTF-8";
-body {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  outline: 1px solid black;
-  margin-left: auto;
-  margin-right: auto;
+:root {
+  --axent: #2196f3;
+  --background: #2f303a;
+  --border: #eeeeee;
+  --text: #757575;
+  --section: #f5f4fa;
+  --maintext: #ffffff;
+  --firstlogo: #000000;
 }
 
 a {
@@ -42,266 +38,18 @@ p {
   padding: 0;
 }
 
-.clients-title {
-  text-align: center;
-  font-family: "Roboto", serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 42.19px;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
-
-.clients-list {
-  display: flex;
-  justify-content: center;
-}
-
-.clients-item {
-  width: 170px;
-  height: 92px;
-  margin-right: 30px;
-  margin-bottom: 23px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  transition-property: fill;
-}
-
-.clients-item :hover {
-  fill: #2196f3;
-  transition-duration: 250ms;
-  transition-delay: 2ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-svgone {
-  width: 130px;
-  height: 100px;
-  position: relative;
-  left: 20px;
-  fill: #afb1b8;
-}
-
-.clients-svgtwo {
-  width: 130px;
-  height: 100px;
-  position: relative;
-  left: 20px;
-  fill: #afb1b8;
-}
-
-.clients-svgthree {
-  width: 130px;
-  height: 100px;
-  position: relative;
-  left: 20px;
-  fill: #afb1b8;
-}
-
-.clients-svgfour {
-  width: 130px;
-  height: 100px;
-  position: relative;
-  left: 20px;
-  fill: #afb1b8;
-}
-
-.clients-svgsix {
-  width: 130px;
-  height: 100px;
-  position: relative;
-  left: 20px;
-  fill: #afb1b8;
-}
-
-.clients-svgfive {
-  width: 130px;
-  height: 100px;
-  position: relative;
-  left: 20px;
-  fill: #afb1b8;
-}
-
-.footer {
-  background-color: #2f303a;
-  padding-top: 30px;
-}
-
-.footer-wrap {
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 60px;
-}
-
-.footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
+body {
+  font-family: "Roboto", sans-serif;
   line-height: 1.17;
-  letter-spacing: 3%;
-  color: white;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  outline: 1px solid black;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 20px;
-  position: relative;
-  padding-left: 10px;
-  display: inline;
-}
-
-.footer-logo:hover {
-  color: var(--text);
-}
-
-.footer-item-adrs {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 3%;
-  color: white;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  font-style: normal;
-}
-
-.footer-first-link {
-  color: rgba(255, 255, 255, 0.613);
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 3%;
-  margin-bottom: 10px;
-}
-
-.footer-first-num {
-  color: rgba(255, 255, 255, 0.613);
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 3%;
-}
-
-.footer-item #cls {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 3%;
-  color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 10px;
-}
-
-.footer-s-title {
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  margin-bottom: 20px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16.41px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-
-.footer-svg {
-  width: 20px;
-  height: 20px;
-  fill: white;
-  transition-property: fill;
-}
-
-.footer-svg:hover {
-  fill: #ffffff;
-  transition-duration: 250ms;
-  transition-delay: 2ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.svg-wrap {
-  position: relative;
-  left: 300px;
-  top: -126px;
-}
-
-.footer-svg-item {
-  display: inline;
-  margin-right: 12px;
-}
-
-.vgh-footer-hover {
-  width: 30px;
-  height: 30px;
-  border: 1px solid transparent;
-  border-radius: 360px;
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.1019607843);
-  transition-property: background-color;
-}
-
-.vgh-footer-hover:hover {
-  background-color: #2196f3;
-  transition-duration: 250ms;
-  transition-delay: 2ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.subscribe {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 16.41px;
-  letter-spacing: 0.03em;
-  color: white;
-  margin-bottom: 20px;
-}
-
-.email {
-  background-color: #2f303a;
-  border: 1px solid border rgba(255, 255, 255, 0.3019607843);
-  width: 358px;
-  height: 50px;
-  padding-left: 10px;
-  border-radius: 4px;
-  margin-right: 12px;
-}
-
-.button-footer {
-  width: 200px;
-  height: 50px;
-  background-color: #2196f3;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 30px;
-  letter-spacing: 0.06em;
-  text-align: center;
-  border-radius: 4px;
-  transition-property: background-color;
-}
-
-.button-footer:hover {
-  background-color: var(--text);
-  transition-duration: 250ms;
-  transition-delay: 3ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-send {
-  width: 23.9999961853px;
-  height: 24.0000514984px;
-  position: relative;
-  top: 13px;
-  right: 38px;
-}
-
-.wrapchk {
-  display: flex;
-}
-
-.footer-t-s {
-  position: relative;
-  left: 500px;
-  top: -187px;
 }
 
 .header-svg {
@@ -959,12 +707,264 @@ li {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-:root {
-  --axent: #2196f3;
-  --background: #2f303a;
-  --border: #eeeeee;
-  --text: #757575;
-  --section: #f5f4fa;
-  --maintext: #ffffff;
-  --firstlogo: #000000;
+.clients-title {
+  text-align: center;
+  font-family: "Roboto", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  margin-right: 30px;
+  margin-bottom: 23px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition-property: fill;
+}
+
+.clients-item :hover {
+  fill: #2196f3;
+  transition-duration: 250ms;
+  transition-delay: 2ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-svgone {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+
+.clients-svgtwo {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+
+.clients-svgthree {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+
+.clients-svgfour {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+
+.clients-svgsix {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+
+.clients-svgfive {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  left: 20px;
+  fill: #afb1b8;
+}
+
+.subscribe {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.email {
+  background-color: #2f303a;
+  border: 1px solid border rgba(255, 255, 255, 0.3019607843);
+  width: 358px;
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.button-footer {
+  width: 200px;
+  height: 50px;
+  background-color: #2196f3;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  border-radius: 4px;
+  transition-property: background-color;
+}
+
+.button-footer:hover {
+  background-color: var(--text);
+  transition-duration: 250ms;
+  transition-delay: 3ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-send {
+  width: 23.9999961853px;
+  height: 24.0000514984px;
+  position: relative;
+  top: 13px;
+  right: 38px;
+}
+
+.wrapchk {
+  display: flex;
+}
+
+.footer-t-s {
+  position: relative;
+  left: 500px;
+  top: -187px;
+}
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 30px;
+}
+
+.footer-wrap {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 60px;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  position: relative;
+  padding-left: 10px;
+  display: inline;
+}
+
+.footer-logo:hover {
+  color: var(--text);
+}
+
+.footer-item-adrs {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 3%;
+  color: white;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  font-style: normal;
+}
+
+.footer-first-link {
+  color: rgba(255, 255, 255, 0.613);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  margin-bottom: 10px;
+}
+
+.footer-first-num {
+  color: rgba(255, 255, 255, 0.613);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+}
+
+.footer-item #cls {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 10px;
+}
+
+.footer-s-title {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.footer-svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+  transition-property: fill;
+}
+
+.footer-svg:hover {
+  fill: #ffffff;
+  transition-duration: 250ms;
+  transition-delay: 2ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-wrap {
+  position: relative;
+  left: 300px;
+  top: -126px;
+}
+
+.footer-svg-item {
+  display: inline;
+  margin-right: 12px;
+}
+
+.vgh-footer-hover {
+  width: 30px;
+  height: 30px;
+  border: 1px solid transparent;
+  border-radius: 360px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  transition-property: background-color;
+}
+
+.vgh-footer-hover:hover {
+  background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-delay: 2ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -1,12 +1,13 @@
-@import "base/common";
-@import "base/reset";
+@import "utils/variables";
 
-@import "components/clients";
-@import "components/footerone";
-@import "components/footersubrcb";
+@import "base/reset";
+@import "base/common";
+
 @import "components/header";
 @import "components/modal";
 @import "components/second";
 @import "components/team";
+@import "components/clients";
+@import "components/footersubrcb";
+@import "components/footerone";
 
-@import "utils/variables";
