@@ -31,7 +31,7 @@
   transition-property: background-color;
 }
 .button-footer:hover {
-  background-color: var(--text);
+  background-color:$text;
   transition-duration: 250ms;
   transition-delay: 3ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

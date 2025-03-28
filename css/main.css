@@ -1,14 +1,4 @@
 @charset "UTF-8";
-:root {
-  --axent: #2196f3;
-  --background: #2f303a;
-  --border: #eeeeee;
-  --text: #757575;
-  --section: #f5f4fa;
-  --maintext: #ffffff;
-  --firstlogo: #000000;
-}
-
 a {
   text-decoration: none;
   color: var(--firstlogo);
@@ -64,7 +54,7 @@ body {
 }
 
 .header-svg {
-  fill: var(--text);
+  fill: #757575;
 }
 
 .header-svg:hover {
@@ -104,7 +94,7 @@ body {
 
 .logo:hover,
 .logo:focus {
-  color: var(--axent);
+  color: #2196f3;
   color: #2196f3;
   transition-duration: 250ms;
   transition-delay: 2ms;
@@ -112,7 +102,7 @@ body {
 }
 
 span {
-  color: var(--axent);
+  color: #2196f3;
 }
 
 .header-letter {
@@ -593,7 +583,7 @@ li {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--maintext);
+  color: #ffffff;
   padding-top: 27px;
   padding-right: 107px;
   padding-left: 107px;
@@ -633,7 +623,7 @@ li {
   border-color: transparent;
   border-radius: 360px;
   display: inline-block;
-  background-color: var(--axent);
+  background-color: #2196f3;
   transition-duration: 250ms;
   transition-delay: 1ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) f;
@@ -749,7 +739,7 @@ li {
 .team-svg {
   width: 20px;
   height: 20px;
-  fill: var(--text);
+  fill: #757575;
   transition-property: fill;
 }
 
@@ -878,7 +868,7 @@ li {
 }
 
 .button-footer:hover {
-  background-color: var(--text);
+  background-color: #757575;
   transition-duration: 250ms;
   transition-delay: 3ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -929,7 +919,7 @@ li {
 }
 
 .footer-logo:hover {
-  color: var(--text);
+  color: #757575;
 }
 
 .footer-item-adrs {

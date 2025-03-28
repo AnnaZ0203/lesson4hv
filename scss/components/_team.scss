@@ -4,7 +4,7 @@
  border-color: transparent;
   border-radius: 360px;
   display: inline-block;
-  background-color: var(--axent);
+  background-color:$axent;
   transition-duration: 250ms;
   transition-delay: 1ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) f;
@@ -102,7 +102,7 @@ flex-wrap: nowrap;;
 .team-svg {
   width: 20px;
   height: 20px;
-  fill: var(--text);
+  fill:$text;
   transition-property: fill;
 }
 .team-svg:hover {

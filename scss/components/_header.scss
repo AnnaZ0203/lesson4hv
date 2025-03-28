@@ -1,5 +1,5 @@
 .header-svg {
-  fill: var(--text);
+  fill:$text;
 }
 .header-svg:hover {
   fill: #2196f3;
@@ -33,14 +33,14 @@
 }
 .logo:hover,
 .logo:focus {
-  color: var(--axent);
+  color:$axent;
   color: #2196f3;
   transition-duration: 250ms;
   transition-delay: 2ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 span {
-  color: var(--axent);
+  color:$axent;
 }
 
 .header-letter {
