@@ -1,7 +1,10 @@
-.second-text {
+
+.second-sec{
+
+   &__text {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -13,26 +16,26 @@
   padding-bottom: 27px;
   background-color: #2f303acc;
   position: relative;
-  top: -76px;
+  top: -73px;
 }
-
-.scnd-sec-title {
+&__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 3%;
   text-align: center;
   padding-bottom: 50px;
+  margin-top: 20px;
 }
-.scnd-sec-list {
+&__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.scnd-sec-item {
-  padding-bottom: 94px;
-  margin-right: 15px; /*знаю що тут 30, але з 30рх воно вилазить за контейнер */
+&__item {
+  padding-bottom: 90px;
+  
 }
-.scnd-sec-item:last-child {
-  margin-right: auto;
+
+
 }
