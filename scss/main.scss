@@ -1,8 +1,9 @@
-@import "utils/variables";
+@import "./utils/variables";
 
-@import "base/reset";
-@import "base/common";
+@import "./base/reset";
+@import "./base/common";
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 @import "./components/header";
 <<<<<<< HEAD
@@ -13,10 +14,17 @@
 @import "./components/second";
 @import "./components/sectioin";
 >>>>>>> parent of fd75541 (k)
+=======
+@import "./components/header";
+@import "./components/modal";
+@import "./components/second";
+@import "./components/sectioin";
+>>>>>>> parent of fd75541 (k)
 @import "./components/team";
 @import "./components/clients";
 @import "./components/footersubrcb";
 @import "./components/footerone";
+<<<<<<< HEAD
 =======
 @import "components/header";
 @import "components/modal";
@@ -27,4 +35,6 @@
 @import "components/footersubrcb";
 @import "components/footerone";
 >>>>>>> parent of 91d14ba (k)
+=======
+>>>>>>> parent of fd75541 (k)
 
