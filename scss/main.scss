@@ -1,13 +1,14 @@
-@import "utils/variables";
+@import "./utils/variables";
 
-@import "base/reset";
-@import "base/common";
+@import "./base/reset";
+@import "./base/common";
 
-@import "components/header";
-@import "components/modal";
-@import "components/second";
-@import "components/team";
-@import "components/clients";
-@import "components/footersubrcb";
-@import "components/footerone";
+@import "./components/header";
+@import "./components/modal";
+@import "./components/second";
+@import "./components/sectioin";
+@import "./components/team";
+@import "./components/clients";
+@import "./components/footersubrcb";
+@import "./components/footerone";
 
