@@ -1,0 +1,10 @@
+@mixin button(){
+  background-color: #2196f3;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  transition-property: color;
+  border-radius: 5px;
+}

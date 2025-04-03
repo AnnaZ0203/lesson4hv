@@ -23,9 +23,8 @@
   }
 }
 .team-wrap {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
+ @extend %flex;
 }
 .team-title {
   font-weight: 700;

@@ -58,8 +58,7 @@ span {
   right: 5px;
 }
 .nav-list {
-  display: flex;
-  align-items: center;
+ @extend %flex;
 }
 .nav-item {
   color: #212121;
@@ -129,7 +128,7 @@ span {
   margin-right: 344px;
 }
 .address {
-  display: flex;
+  @extend %flex;
   justify-content: space-between;
 }
 .nav-adress {

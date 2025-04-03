@@ -1,7 +1,5 @@
 .subscribe {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+ @extend %text;
   line-height: 16.41px;
   letter-spacing: 0.03em;
   color: white;
@@ -19,15 +17,11 @@
 .button-footer {
   width: 200px;
   height: 50px;
-  background-color: #2196f3;
-  font-family: "Roboto", sans-serif;
-  color: white;
-  font-size: 16px;
-  font-weight: 700;
+  @extend %text;
   line-height: 30px;
   letter-spacing: 0.06em;
   text-align: center;
-  border-radius: 4px;
+  @include button();
   transition-property: background-color;
 }
 .button-footer:hover {
