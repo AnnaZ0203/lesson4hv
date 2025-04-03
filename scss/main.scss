@@ -1,6 +1,9 @@
 @import "./base/reset";
 @import "./base/common";
 
+@import "./utils/variables";
+
+
 @import "./components/header";
 @import "./components/modal";
 @import "./components/second";
