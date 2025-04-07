@@ -1,30 +1,24 @@
 .svghover:hover {
-    padding: 12px;
-    border-radius: 50%;
- border-color: transparent;
+  padding: 12px;
+  border-radius: 50%;
+  border-color: transparent;
   border-radius: 360px;
   display: inline-block;
-  background-color:$axent;
+  background-color: $axent;
   transition-duration: 250ms;
   transition-delay: 1ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) f;
 }
 .svghover {
-  
   transition: background-color;
 }
 .team {
   background-color: #f5f4fa;
   padding-bottom: 94px;
-
-   @media (min-width:1200px){
-   padding: 94px 0;
- 
-  }
 }
 .team-wrap {
   justify-content: space-between;
- @extend %flex;
+  @extend %flex;
 }
 .team-title {
   font-weight: 700;
@@ -33,40 +27,16 @@
   letter-spacing: 3%;
   text-align: center;
   padding-bottom: 50px;
-
-   @media (min-width:1200px){
-    font-size: 28px;
-    margin-bottom: 30px;
-  }
-  
-   @media (min-width:1200px){
-    font-size: 36px;
-    margin-bottom: 50px;
-}}
+}
 .team-list {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   display: flex;
   flex-direction: column;
-    @media (min-width:768px) and (max-width:1199px){
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  @media (min-width:1200px){
-flex-wrap: nowrap;;
-    
-  }
 }
-.team-item{
+.team-item {
   width: 100%;
-    @media (min-width:768px) and (max-width:1199px){
-   width: 354px;
-  }
-  @media (min-width:1200px){
-    width: 270px;
-    
-  }
 }
 .team-image {
   padding-bottom: 30px;
@@ -101,7 +71,7 @@ flex-wrap: nowrap;;
 .team-svg {
   width: 20px;
   height: 20px;
-  fill:$text;
+  fill: $text;
   transition-property: fill;
 }
 .team-svg:hover {

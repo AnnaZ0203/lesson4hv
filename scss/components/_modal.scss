@@ -181,11 +181,14 @@
 .no-scroll {
   overflow: hidden;
 }
-
+/*section*/
 .section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
+   @media (min-width:768px){
+    width: 768px;
+  }
 }
 
 .seciton-list {
