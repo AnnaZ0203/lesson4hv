@@ -41,19 +41,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-@media (min-width: 480px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 480px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-@media (max-width: 1200px) {
-  .container {
-    width: 1200px;
   }
 }
 
@@ -446,27 +436,33 @@ span {
   margin: 0 auto;
   padding: 40px;
 }
-@media (min-width: 480px) {
+@media (min-width: 480px) and (max-width: 767px) {
   .section {
     width: 480px;
   }
 }
 
-.seciton-list {
+.section-list {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   padding: 0;
   list-style: none;
 }
-@media (min-width: 480px) {
-  .seciton-list {
-    flex-direction: column;
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-list {
+    display: inline-block;
+    display: flex;
   }
 }
 
 .section-item {
   text-align: center;
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .section-item {
+    flex-direction: column;
+  }
 }
 
 .icon {
