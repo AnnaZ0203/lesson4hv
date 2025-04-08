@@ -15,10 +15,28 @@
 .team {
   background-color: #f5f4fa;
   padding-bottom: 94px;
+  @media screen and (min-width: 480px) {
+    display: flex;
+    margin: 0 auto;
+ 
+   }
+     @media screen and (min-width: 1200px){
+        margin: 0 auto;
+    }
 }
 .team-wrap {
   justify-content: space-between;
   @extend %flex;
+  @media screen and (min-width: 480px) {
+    flex-direction: column;
+    width: 100%;
+    display: inline;
+   }
+    @media screen and (min-width: 1200px){
+      display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
 }
 .team-title {
   font-weight: 700;
@@ -34,12 +52,43 @@
   border-bottom-right-radius: 7px;
   display: flex;
   flex-direction: column;
+   @media screen and (min-width: 480px) {
+width: 450px;
+height: 460px;
+justify-content: center;
+align-items: center;
+box-shadow:0 1px 1px rgba(0, 0, 0, 0.2) ;
+margin-bottom: 30px;
+ border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+   }
+     @media screen and (min-width: 1200px){
+       margin-right: 30px;
+       width: 270px;
+height: 428px;
+
+    }
 }
 .team-item {
   width: 100%;
+
+@media screen and (min-width: 480px) {
+margin-bottom: 30px;
+align-items: center;
+   }
 }
 .team-image {
-  padding-bottom: 30px;
+ 
+margin-bottom: 30px;
+@media screen and (min-width: 480px) {
+width: 450px;
+height: 460px;
+width: 100%;
+align-items: center;
+margin-bottom: 30px;
+
+   }
+ 
 }
 .team-name {
   font-weight: 500;
@@ -48,6 +97,10 @@
   letter-spacing: 3%;
   text-align: center;
   padding-bottom: 10px;
+
+  @media screen and (min-width: 480px) {
+padding-top: 30px;
+   }
 }
 .team-job {
   color: #757575;
@@ -57,6 +110,9 @@
   letter-spacing: 3%;
   text-align: center;
   padding-bottom: 10px;
+   @media screen and (min-width: 480px) {
+padding-top: 10px;
+   }
 }
 .teamsvg-wrap {
   display: flex;
@@ -66,6 +122,9 @@
   padding: 0 32px;
   margin-bottom: 30px;
   margin-top: 16px;
+   @media screen and (min-width: 480px) {
+padding-top: 16px;
+   }
 }
 
 .team-svg {
@@ -73,6 +132,9 @@
   height: 20px;
   fill: $text;
   transition-property: fill;
+     @media screen and (min-width: 480px) {
+margin-right: 16px;
+   }
 }
 .team-svg:hover {
   fill: var(--maintext);

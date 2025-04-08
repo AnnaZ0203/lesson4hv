@@ -1,6 +1,9 @@
 
 .second-sec{
-
+    @media screen and (min-width: 480px) {
+       display: flex;
+       flex-direction: column;
+   }
    &__text {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -27,9 +30,16 @@
   padding-bottom: 50px;
   margin-top: 20px;
 }
+
 &__list {
 @extend %flex;
   justify-content: space-between;
+   @media screen and (min-width: 480px) {
+       flex-direction: column;
+   }
+    @media screen and (min-width: 1200px){
+      flex-direction: row;
+    }
   
 }
 &__item {
