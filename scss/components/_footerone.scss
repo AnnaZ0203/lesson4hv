@@ -1,12 +1,13 @@
 .footer {
   background-color: #2f303a;
   padding-top: 30px;
+    
+    
 }
 
 .footer-wrap {
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 60px;
+
+
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -14,13 +15,8 @@
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 3%;
-  color: white;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
-  position: relative;
-  padding-left: 10px;
-  display: inline;
+
+ 
 }
 .footer-logo:hover {
   color:$text;
@@ -86,8 +82,10 @@
 
 .svg-wrap {
   position: relative;
-  left: 300px;
-  top: -126px;
+
+   @media screen and (min-width: 480px){
+
+    }
 }
 .footer-svg-item {
   display: inline;
@@ -107,4 +105,53 @@
   transition-duration: 250ms;
   transition-delay: 2ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+
+ .subscribe {
+ @extend %text;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  color: white;
+  margin-bottom: 20px;
+}
+.email {
+  background-color: #2f303a;
+  border: 1px solid border #ffffff4d;
+  width: 358px;
+  height: 50px;
+  padding-left: 10px;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+.button-footer {
+  width: 200px;
+  height: 50px;
+  @extend %text;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  @include button();
+  transition-property: background-color;
+}
+.button-footer:hover {
+  background-color:$text;
+  transition-duration: 250ms;
+  transition-delay: 3ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn-send {
+  width: 23.999996185302734px;
+  height: 24.000051498413086px;
+  position: relative;
+  top: 13px;
+  right: 38px;
+}
+
+
+.wrapchk {
+  display: flex;
 }
