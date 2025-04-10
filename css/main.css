@@ -439,34 +439,17 @@ span {
   overflow: hidden;
 }
 
-/*section*/
 .section {
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px;
 }
-@media screen and (min-width: 480px) {
-  .section {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-  }
-}
-
 .section-list {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   padding: 0;
   list-style: none;
-}
-@media screen and (min-width: 480px) {
-  .section-list {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    justify-content: space-between;
-  }
 }
 
 .section-item {
