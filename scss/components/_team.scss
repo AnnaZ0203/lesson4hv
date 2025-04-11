@@ -18,8 +18,12 @@
   @media screen and (min-width: 480px) {
     display: flex;
     margin: 0 auto;
- 
+    
    }
+    @media screen and (min-width: 768px){
+margin: 0 auto;
+display: flex;
+    }
      @media screen and (min-width: 1200px){
         margin: 0 auto;
     }
@@ -32,11 +36,15 @@
     width: 100%;
     display: inline;
    }
+     @media screen and (min-width: 768px){
+flex-wrap: wrap ;
+    }
     @media screen and (min-width: 1200px){
       display: flex;
         flex-direction: row;
         width: 100%;
     }
+     
 }
 .team-title {
   font-weight: 700;
