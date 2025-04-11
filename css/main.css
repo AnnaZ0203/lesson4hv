@@ -135,6 +135,17 @@ span {
   right: 5px;
 }
 
+@media screen and (min-width: 480px) {
+  .nav-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav-list {
+    display: flex;
+  }
+}
+
 .nav-item {
   color: #212121;
   margin-right: 50px;
@@ -211,6 +222,16 @@ span {
 
 .address {
   justify-content: space-between;
+}
+@media screen and (min-width: 480px) {
+  .address {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .address {
+    display: flex;
+  }
 }
 
 .nav-adress {

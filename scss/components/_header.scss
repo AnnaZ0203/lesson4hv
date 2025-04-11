@@ -59,6 +59,13 @@ span {
 }
 .nav-list {
  @extend %flex;
+  @media screen and (min-width: 480px){
+      display: none;
+   }
+      @media screen and (min-width: 1200px){
+        display: flex;
+    }
+
 }
 .nav-item {
   color: #212121;
@@ -130,6 +137,12 @@ span {
 .address {
   @extend %flex;
   justify-content: space-between;
+    @media screen and (min-width: 480px){
+      display: none;
+   }
+    @media screen and (min-width: 1200px){
+        display: flex;
+    }
 }
 .nav-adress {
   margin-right: 50px;
