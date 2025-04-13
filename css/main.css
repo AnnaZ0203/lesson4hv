@@ -691,23 +691,6 @@ span {
   height: 70px;
 }
 
-.section-item {
-  width: 260px;
-  height: 120px;
-}
-@media screen and (min-width: 480px) {
-  .section-item {
-    width: 450px;
-    height: 120px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .section-item {
-    width: 260px;
-    height: 120px;
-  }
-}
-
 .wrp {
   border: 1px solid white;
   width: 260px;
