@@ -1,8 +1,9 @@
 .section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
  @media screen and (min-width: 480px){
+  
    }
     @media screen and (min-width: 768px){
 
@@ -14,10 +15,11 @@
 
 .section-list {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
   gap: 20px;
-  padding: 0;
-  list-style: none;
+ margin: 0 auto;
 
   }
 
@@ -36,6 +38,19 @@
    height: 70px;
     
 
+}
+.section-item {
+  width: 260px;
+  height: 120px;
+    @media screen and (min-width: 480px){
+width: 450px;
+height: 120px;
+   }
+   @media screen and (min-width: 1200px){
+   width: 260px;
+  height: 120px;
+    }
+ 
 }
 .wrp {
   border: 1px solid white;
@@ -96,16 +111,15 @@ margin-left: 2px;
 .seciton-list {
   display: flex;
   gap: 30px;
-  @media screen and (min-width: 480px){
+align-items: center;
 flex-direction: column;
-
-   }
       @media screen and (min-width: 768px){
    flex-wrap: wrap;
     }
     @media screen and (min-width: 1200px){
         flex-direction: row;
     }
+  ;
 }
 .section-list::before {
   content: "";
