@@ -37,12 +37,13 @@ display: flex;
     display: inline;
    }
      @media screen and (min-width: 768px){
-flex-wrap: wrap ;
+flex-wrap: wrap;
     }
     @media screen and (min-width: 1200px){
       display: flex;
         flex-direction: row;
         width: 100%;
+        flex-wrap: nowrap;
     }
      
 }

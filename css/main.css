@@ -266,6 +266,12 @@ span {
   margin-left: 0;
   border: none;
   background-color: rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+}
+@media screen and (min-width: 1200px) {
+  .mob-open {
+    display: none;
+  }
 }
 
 .mob-menu {
@@ -276,8 +282,13 @@ span {
   background-color: rgba(39, 39, 43, 0.0862745098);
 }
 
-.mob-image {
+.mob-img {
   background-color: transparent;
+}
+@media screen and (min-width: 1200px) {
+  .mob-img {
+    display: none;
+  }
 }
 
 .is-hidden {
@@ -947,6 +958,7 @@ li {
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex-wrap: nowrap;
   }
 }
 

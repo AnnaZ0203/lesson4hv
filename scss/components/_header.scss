@@ -173,6 +173,10 @@ span {
     margin-left: 0;
     border: none;
   background-color: #00000033;
+    background-color: transparent;
+     @media screen and (min-width: 1200px){
+      display: none;
+    }
 
 }
 .mob-menu{
@@ -183,8 +187,11 @@ span {
   background-color: #27272b16;
  
 }
-.mob-image{
+.mob-img{
   background-color: transparent;
+     @media screen and (min-width: 1200px){
+      display: none;
+    }
 }
 .is-hidden{
     display: none;
