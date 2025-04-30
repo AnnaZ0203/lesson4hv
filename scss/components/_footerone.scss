@@ -5,18 +5,28 @@
     
 }
 
-.footer-wrap {
-
-
+.footer-list{
+margin-bottom: 60px;
+}
+.footer-item{
+   display: flex;
+     justify-content: center;
+     @media screen and (min-width: 1200px){
+     justify-content: left;
+}
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  letter-spacing: 3%;
-
- 
+ display: flex;
+ color: white;
+     justify-content: center;
+     margin-bottom: 20px;
+   @media screen and (min-width: 1200px){
+     justify-content: left;
+}
 }
 .footer-logo:hover {
   color:$text;
@@ -30,6 +40,12 @@
   padding-bottom: 10px;
   margin-top: 10px;
   font-style: normal;
+   display: flex;
+  
+     justify-content: center;
+     @media screen and (min-width: 1200px){
+     justify-content: left;
+}
 }
 .footer-first-link {
   color: rgba(255, 255, 255, 0.613);
@@ -82,10 +98,16 @@
 
 .svg-wrap {
   position: relative;
-
-   @media screen and (min-width: 480px){
-
-    }
+display: flex;
+flex-direction:column;
+flex-wrap: nowrap;
+align-content: space-between;
+align-items: center;
+margin-bottom: 60px;
+     @media screen and (min-width: 1200px){
+   flex-wrap: wrap;
+   align-content: space-around;
+}
 }
 .footer-svg-item {
   display: inline;
@@ -117,6 +139,11 @@
   letter-spacing: 0.03em;
   color: white;
   margin-bottom: 20px;
+   display: flex;
+     justify-content: center;
+     @media screen and (min-width: 1200px){
+     justify-content: left;
+}
 }
 .email {
   background-color: #2f303a;
@@ -153,5 +180,10 @@
 
 
 .wrapchk {
-  display: flex;
+  
+ display: flex;
+     justify-content: center;
+     @media screen and (min-width: 1200px){
+     justify-content: left;
+}
 }

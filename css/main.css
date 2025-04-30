@@ -934,13 +934,9 @@ li {
 
 .team-wrap {
   justify-content: space-between;
-}
-@media screen and (min-width: 480px) {
-  .team-wrap {
-    flex-direction: column;
-    width: 100%;
-    display: inline;
-  }
+  flex-direction: column;
+  width: 100%;
+  display: inline;
 }
 @media screen and (min-width: 768px) {
   .team-wrap {
@@ -1002,9 +998,6 @@ li {
   }
 }
 
-.team-image {
-  margin-bottom: 30px;
-}
 @media screen and (min-width: 480px) {
   .team-image {
     width: 450px;
@@ -1012,6 +1005,7 @@ li {
     width: 100%;
     align-items: center;
     margin-bottom: 30px;
+    padding-bottom: 10px;
   }
 }
 
@@ -1093,6 +1087,7 @@ li {
 .clients-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 @media screen and (min-width: 480px) {
   .clients-list {
@@ -1175,12 +1170,34 @@ li {
   padding-top: 30px;
 }
 
+.footer-list {
+  margin-bottom: 60px;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-item {
+    justify-content: left;
+  }
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
-  letter-spacing: 3%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-logo {
+    justify-content: left;
+  }
 }
 
 .footer-logo:hover {
@@ -1196,6 +1213,13 @@ li {
   padding-bottom: 10px;
   margin-top: 10px;
   font-style: normal;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .footer-item-adrs {
+    justify-content: left;
+  }
 }
 
 .footer-first-link {
@@ -1253,7 +1277,20 @@ li {
 
 .svg-wrap {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .svg-wrap {
+    flex-wrap: wrap;
+    align-content: space-around;
+  }
+}
+
 .footer-svg-item {
   display: inline;
   margin-right: 12px;
@@ -1281,6 +1318,13 @@ li {
   letter-spacing: 0.03em;
   color: white;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    justify-content: left;
+  }
 }
 
 .email {
@@ -1327,4 +1371,10 @@ li {
 
 .wrapchk {
   display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .wrapchk {
+    justify-content: left;
+  }
 }

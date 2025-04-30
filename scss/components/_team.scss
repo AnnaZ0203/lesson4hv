@@ -31,11 +31,11 @@ display: flex;
 .team-wrap {
   justify-content: space-between;
   @extend %flex;
-  @media screen and (min-width: 480px) {
     flex-direction: column;
     width: 100%;
     display: inline;
-   }
+  
+  
      @media screen and (min-width: 768px){
 flex-wrap: wrap;
     }
@@ -87,15 +87,14 @@ align-items: center;
    }
 }
 .team-image {
- 
-margin-bottom: 30px;
+
 @media screen and (min-width: 480px) {
 width: 450px;
 height: 460px;
 width: 100%;
 align-items: center;
 margin-bottom: 30px;
-
+padding-bottom: 10px;
    }
  
 }
