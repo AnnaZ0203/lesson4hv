@@ -1173,6 +1173,11 @@ li {
 .footer-list {
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .footer-list {
+    margin-left: 80px;
+  }
+}
 
 .footer-item {
   display: flex;
@@ -1197,6 +1202,7 @@ li {
 @media screen and (min-width: 1200px) {
   .footer-logo {
     justify-content: left;
+    margin-left: 80px;
   }
 }
 
@@ -1276,7 +1282,6 @@ li {
 }
 
 .svg-wrap {
-  position: relative;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -1288,6 +1293,9 @@ li {
   .svg-wrap {
     flex-wrap: wrap;
     align-content: space-around;
+    position: relative;
+    bottom: 200px;
+    right: 160px;
   }
 }
 
@@ -1311,6 +1319,14 @@ li {
   transition-duration: 250ms;
   transition-delay: 2ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 1200px) {
+  .input-together {
+    position: relative;
+    left: 600px;
+    bottom: 325px;
+  }
 }
 
 .subscribe {
