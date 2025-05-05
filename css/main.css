@@ -1369,6 +1369,19 @@ li {
   border-radius: 5px;
   transition-property: background-color;
 }
+@media screen and (min-width: 480px) {
+  .button-footer {
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .button-footer {
+    transform: translateX(270px);
+    position: relative;
+    bottom: 70px;
+  }
+}
 
 .button-footer:hover {
   background-color: #757575;
@@ -1392,5 +1405,12 @@ li {
 @media screen and (min-width: 1200px) {
   .wrapchk {
     justify-content: left;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .form-footer {
+    display: flex;
+    flex-direction: column;
   }
 }

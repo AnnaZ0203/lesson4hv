@@ -177,6 +177,15 @@ margin-bottom: 60px;
   text-align: center;
   @include button();
   transition-property: background-color;
+   @media screen and (min-width: 480px){
+margin-left: 100px;
+margin-top: 20px;
+}
+   @media screen and (min-width: 1200px){
+transform: translateX(270px);
+position: relative;
+bottom: 70px;
+}
 }
 .button-footer:hover {
   background-color:$text;
@@ -199,5 +208,11 @@ margin-bottom: 60px;
      justify-content: center;
      @media screen and (min-width: 1200px){
      justify-content: left;
+}
+}
+.form-footer{
+  @media screen and (min-width: 480px){
+ display: flex;
+ flex-direction: column;
 }
 }
