@@ -211,14 +211,13 @@ span {
  padding-left: 25px;
 }
 .mob-close{
-  border: 1px solid #0000001a;
   width: 30px;
   height: 30px;
-  border-radius: 50px;
+border: none;
   background-color: transparent;
   position: relative;
   left: 450px;
-  bottom: 55px;
+  bottom:550px;
 }
 
 
@@ -373,3 +372,65 @@ left: -430px;
   transition-delay: 1ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
+
+
+
+
+
+.mob-list {
+margin-bottom: 220px;
+margin-top: 20px;
+
+}
+.mob-item {
+  font-family: "Roboto",sans-serif;
+font-weight: 500;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 2%;
+text-align: left;
+color: #212121;
+margin-bottom: 30px;
+}
+.mob-item:hover{
+color: #2196f3;
+  transition-duration: 250ms;
+  transition-delay: 2ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+.mobnav-list {
+}
+.mobnav-item {
+  font-family: "Roboto",sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 2%;
+color: #757575;
+margin-bottom: 40px;
+
+}
+.mobnav-item:hover{
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-delay: 2ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+
+.mob-listtwo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.mob-itemtwo {
+  font-family: "Roboto",sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 2%;
+color: #2196F3;
+margin-right: 20px;
+
+}
+
+
